@@ -55,7 +55,7 @@ app.get("/rooms",(req,res)=>{
 
 const io = new Server( httpServer,{
   cors: {
-          origin: 'http://localhost:3000',
+          origin: 'https://chat-with-me-app.netlify.app',
           methods: ['GET', 'POST']
         }
     
